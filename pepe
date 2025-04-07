@@ -1,3 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ASCII Frame</title>
+  <style>
+    body {
+      background-color: #222;
+      color: #0f0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: monospace;
+    }
+
+    .ascii-frame {
+      width: 500px;
+      height: 600px;
+      border: 2px solid #0f0;
+      padding: 10px;
+      overflow: auto;         /* Scroll if content is too big */
+      white-space: pre;       /* Preserve ASCII spacing */
+      box-sizing: border-box; /* Include padding in size */
+      background-color: #111;
+    }
+  </style>
+</head>
+<body>
+
+<div class="ascii-frame">
+<pre>
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⢋⣩⣴⣶⣿⣿⣶⣭⣉⠛⢿⣿⣿⣿⣿⣿⠿⣿⣿⣿⣿⣷⣿⣿⣿⣿⣿⣿⣿⣿⣿
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠋⠈⠛⢿⣿⣿⡿⠃⠀⠈⠛⠿⣿⣿⣿⣿⣿⠿⠃⠀⢽⣿⣿⣿⠋⠀⠙⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⣀⣀⡀⠀⠹⠿⠃⠠⠐⠖⠆⠀⠈⠿⣿⠏⠀⠠⠴⢖⡀⢙⠋⠁⠀⣀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
@@ -37,3 +70,8 @@
 ⢩⢒⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠐⠀⠀⠀⠐⠠⠀⠁⠂⠐⢈⠰⠈⠐⠀⠈⠀⠀⠁⠀⠀⠀⠀⠀⠀⠀⣼⣿⣿⣿⡇⢀⣇⢨⠊⡐⠀⠀
 ⢂⠆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⣿⣿⣿⠇⡸⡜⢆⠡⠀⠀⢰
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣽⣛⠋⠀⡃⣉⣂⠀⠀⢀⣿
+</pre>
+</div>
+
+</body>
+</html>
